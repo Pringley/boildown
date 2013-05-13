@@ -1,0 +1,36 @@
+% Reformat section headers:
+\RequirePackage{titlesec}
+\titleformat{\section} {\bf} {}{0em} {} []
+\titleformat{\subsection} {\it} {}{0em} {} []
+\titleformat{\subsubsection} {} {}{0em} {} []
+
+% Set margins.
+\RequirePackage[margin=1in]{geometry}
+
+% Use double spacing.
+\usepackage{setspace}
+\doublespacing
+
+% Set paragraph indentation.
+\setlength{\parskip}{0.0pt plus 1.0pt}
+\setlength{\parindent}{.5in}
+
+% Create "tightcenter" environment for centering without adding extra spacing.
+\newenvironment{tightcenter}{%
+    \setlength\topsep{0pt}
+    \setlength\parskip{0pt}
+    \begin{center}
+    }{%
+    \end{center}
+}
+
+% Redefine the \maketitle command to create a more MLA-looking title.
+\makeatletter
+\renewcommand\maketitle{
+    \noindent \@author \\
+    \noindent \@date
+    \begin{tightcenter}
+        \noindent \@title
+    \end{tightcenter}
+}
+\makeatother
