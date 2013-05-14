@@ -1,0 +1,11 @@
+\usepackage[margin=.5in]{geometry}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt plus 2pt minus 1pt}
+
+\twocolumn
+
+\usepackage{titlesec}
+\titleformat{\section} {\Large} {}{0em} {} []
+\titleformat{\subsection} {\bf} {}{0em} {} []
+\titleformat{\subsubsection} {\it} {}{0em} {} []
