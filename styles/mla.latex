@@ -1,11 +1,11 @@
 % Reformat section headers:
-\RequirePackage{titlesec}
+\usepackage{titlesec}
 \titleformat{\section} {\bf} {}{0em} {} []
 \titleformat{\subsection} {\it} {}{0em} {} []
 \titleformat{\subsubsection} {} {}{0em} {} []
 
 % Set margins.
-\RequirePackage[margin=1in]{geometry}
+\usepackage[margin=1in]{geometry}
 
 % Use double spacing.
 \usepackage{setspace}
