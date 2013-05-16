@@ -13,8 +13,9 @@ In Ubuntu, you can just run the following to get started:
 
 ## Quickstart
 
-1. Place your content in `content.markdown`.
+1. Place your content in `content.markdown`. Use
+   [Markdown syntax](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown).
 
-2. Tweak formatting by editing `header.latex`.
+2. Tweak raw LaTeX formatting by editing `header.latex`.
 
 3. Build the output PDF using `make`.
