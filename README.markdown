@@ -13,9 +13,13 @@ In Ubuntu, you can just run the following to get started:
 
 ## Quickstart
 
-1. Place your content in `content.markdown`. Use
+1. Clone this repository.
+
+        git clone git@github.com:Pringley/boildown.git
+
+2. Place your content in `content.markdown`. Use
    [Markdown syntax](http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown).
 
-2. Tweak raw LaTeX formatting by editing `header.latex`.
+3. Tweak raw LaTeX formatting by editing `header.latex`.
 
-3. Build the output PDF using `make`.
+4. Build the output PDF using `make`.
