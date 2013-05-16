@@ -3,7 +3,13 @@
 ## Requirements
 
 - John MacFarlane's excellent [Pandoc](http://johnmacfarlane.net/pandoc/).
-- [TrueTex](http://www.truetex.com/) or another way to generate PDFs from LaTeX
+
+- [TexLive](http://www.tug.org/texlive/) or another way to generate PDFs from
+  LaTeX source
+
+In Ubuntu, you can just run the following to get started:
+
+    sudo apt-get install pandoc texlive texlive-latex-extras
 
 ## Quickstart
 
