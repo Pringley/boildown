@@ -5,7 +5,11 @@
 
 \twocolumn
 
-\usepackage{titlesec}
-\titleformat{\section} {\Large} {}{0em} {} []
-\titleformat{\subsection} {\bf} {}{0em} {} []
-\titleformat{\subsubsection} {\it} {}{0em} {} []
+\usepackage[compact]{titlesec}
+\titleformat{\section} {\Large} {} {0em} {} []
+\titleformat{\subsection} {\bf} {} {0em} {} []
+\titleformat{\subsubsection} {\it} {} {0em} {} []
+
+\titlespacing{\section} {0pt} {0pt} {0pt} [0pt]
+\titlespacing{\subsection} {0pt} {0pt} {0pt} [0pt]
+\titlespacing{\subsubsection} {0pt} {0pt} {0pt} [0pt]
